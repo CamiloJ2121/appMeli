@@ -1,0 +1,38 @@
+.mainSearch {
+  display: flex;
+  justify-content: center; }
+
+.search {
+  color: #333333;
+  font-size: 18px;
+  padding: 10px;
+  width: 80%;
+  box-shadow: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  margin-left: 20px; }
+
+.searchBtn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+  background-color: #EEEEEE; }
+
+.imageSearch {
+  vertical-align: bottom; }
+
+.search::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999999;
+  opacity: 1;
+  /* Firefox */ }
+
+.search:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999; }
+
+.search::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #999999; }

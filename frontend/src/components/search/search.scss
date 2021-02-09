@@ -1,0 +1,43 @@
+@import '../../color.scss';
+@import '../../fontSize.scss';
+
+.mainSearch {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  color: $black;
+  font-size: $font-size-medium;
+  padding: 10px;
+  width: 80%;
+  box-shadow: none;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  margin-left:20px;
+}
+
+.searchBtn{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 5px;
+  background-color: $light-gray;
+}
+
+.imageSearch{
+  vertical-align: bottom;
+}
+.search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: $gray;
+  opacity: 1; /* Firefox */
+}
+  
+.search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $gray;
+}
+  
+.search::-ms-input-placeholder { /* Microsoft Edge */
+  color: $gray;
+}

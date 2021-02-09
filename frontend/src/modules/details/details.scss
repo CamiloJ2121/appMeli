@@ -1,0 +1,51 @@
+@import '../../color.scss';
+@import '../../fontSize.scss';
+
+.main {
+    width: 80%;
+    align-self: center; }
+
+.detail{
+    background: #FFFFFF;
+}
+
+.detailHeader {
+    display: flex;
+}
+
+.detailFooter{
+    padding: 32px;
+}
+
+.detailsInfo{
+    padding-top: 32px;
+    padding-right: 32px;
+}
+
+.subTitle{
+    font-size: $font-size-x-small;
+    padding-top:16px;
+    color:$dark-gray;
+}
+
+.title{
+    font-size: $font-size-large;
+    color: $black;
+}
+
+.price {
+    font-size: $font-size-xx-large;
+    padding-bottom: 16px;
+    color: $black;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color:$blue;
+    width: 40%;
+    padding: 10px;
+    box-shadow: none;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

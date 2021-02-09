@@ -1,0 +1,9 @@
+@import '../../color.scss';
+@import '../../fontSize.scss';
+
+.styleTitle{
+    font-size: $font-size-x-small;
+    color: $gray;
+    margin: 0 auto;
+    padding: 16px 0;
+}

@@ -1,0 +1,3 @@
+export const ACTION_SEARCH = 'meli/ACTION_SEARCH';
+export const ACTION_PRODUCTS_LIST = 'meli/ACTION_PRODUCTS_LIST';
+export const ACTION_PRODUCT_FOR_ID = 'meli/ACTION_PRODUCT_FOR_ID';
